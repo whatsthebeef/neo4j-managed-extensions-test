@@ -2,7 +2,7 @@
 2. mvn clean install
 3. install neo-4j
 4. copy jar from maven compilation to neo4j/plugin
-5. copy the following jars a neo4j/lib
+5. copy the following jars from target/alternativeLocations to neo4j/lib (if they aren't there don't worry about them)
 aopalliance-1.0.jar
 aopalliance-repackaged-2.3.0-b05.jar
 guava-17.0.jar
