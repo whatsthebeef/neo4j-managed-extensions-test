@@ -1,0 +1,9 @@
+package com.zode64.server.api.lifecycle;
+
+class HelloWorldInitializer extends SpringPluginInitializer{
+ public HelloWorldInitializer() {
+        super(new String[]{"spring/helloWorldServer-Context.xml"},
+              Pair.of("worldRepository", WorldRepository.class),
+              Pair.of("template", Neo4jTemplate.class));
+    }
+}

@@ -1,0 +1,8 @@
+package com.zode64.server.api.;
+
+class DefaultName {
+
+    public String getName(){
+	return "World";
+    }
+}
